@@ -1,136 +1,232 @@
 [[gperftools]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "3d7b45bbfcd34931aff9fd4fc08c369c323f7c25"
-libc = "glibc"
-os = "linux"
-
-    [[gperftools.download]]
-    sha256 = "a4096309801715bd72d071d6a3b58fb6378ac2f7c89f167a97715534bd2825a0"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.x86_64-linux-gnu-cxx03.tar.gz"
-[[gperftools]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d19489869cac236b60ecb983610fdd84082d8178"
-libc = "glibc"
-os = "linux"
-
-    [[gperftools.download]]
-    sha256 = "53337f3531a20440e051988c58d69f2aa98f8618785e696b84c7b8ee152132e7"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.i686-linux-gnu-cxx03.tar.gz"
-[[gperftools]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "787b7026b700aee83a775e3b53c9b8521cb8548c"
+arch = "aarch64"
+git-tree-sha1 = "f97d05d5b1f3e096fd3c36569be58e1722d99c5b"
 os = "macos"
 
     [[gperftools.download]]
-    sha256 = "8133696f4258bcdfa36fdab5e2237a243ba472a448002f7ce1e9704e269d400d"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "7b627e784f6e318ffaee830d1839b0c62755c78349202ddbffaec5ae80c690a5"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.aarch64-apple-darwin.tar.gz"
+[[gperftools]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "dcd1dac0a9f8a9258fa6a0cef8d9df7e6871697a"
+libc = "glibc"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "dc57fd2969bc121a6fe409553870ca1add4acaaee4902716017a7555e4e40dbc"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.aarch64-linux-gnu-cxx03.tar.gz"
+[[gperftools]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1243ef912b5ec0ede94a26735cd88b7cd62baab9"
+libc = "glibc"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "75713a223ca019347dac2f56e1f5d34e8ec548586c498cffd4676d0fbacff23b"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[gperftools]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ee1e63646a7ba3144a06e9145cdaf8985835be09"
+libc = "glibc"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "d309b00b369320c857ad2a56a75be836510e95da404fd4fab4917c7bb53ed094"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[gperftools]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3781a8b237c7fc94c34cc3cd68f7414731058271"
+libc = "glibc"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "5747b58a58f742f1168348481eea255f6e36f3ae49ea65c2b066bb6991dca481"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[gperftools]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cab4fce9ea6314e623d0629085247c6d41355c36"
+libc = "musl"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "40ac7f6c10e5276e0add350b87f9311dd2b4b0f4bdcc73b1fcebfee8a58deff5"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[gperftools]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f6e148b4efaaacc9cc3be829bc3744e7a2d6e10a"
+libc = "musl"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "3af8cf7afb8b674ba453a50a5288f1d03572df122bb0d224768d61526f5ae33b"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[gperftools]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f05be943276093bff5364482d2aa1e92aba7f5f9"
+libc = "glibc"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "2005c596d8b5dc2bb4f744ec08b52ab6a8f6464210883d4fbc59d4b23513a912"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[gperftools]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "51c10a97bd927d3459d8aa3d356e80766d6bbfbc"
+libc = "glibc"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "c7d5a69c460ebed94a796ece7da30eb3c1b0711158eeaadbafdaac3a55350acc"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[gperftools]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "80a4c7db4414d133c32b7aa26765af7d88df37cd"
+libc = "musl"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "3f02dbd44a3c4bb9604fe21db668d7c1117ffdfe492ea4988fa6991661186091"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[gperftools]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "051d2dea8bb620d274f442be4f24c2562cea6e1b"
+libc = "musl"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "113a4d74c891001d4b24d1577651167545e79f1083deefdc29f9fbff0cc1d92f"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[gperftools]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2f1f77d5b85505bcc67feed6492084d199c8d2f6"
+libc = "glibc"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "8916e0203c78cab477ab631085467fcadb6d15b3f0db83003180121e48651d5a"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.i686-linux-gnu-cxx03.tar.gz"
 [[gperftools]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "56beb72ae183f196dff632bd2589151c90c9d6b1"
+git-tree-sha1 = "bad691d7f7b038a0dc02b35306f1ef25265396be"
 libc = "glibc"
 os = "linux"
 
     [[gperftools.download]]
-    sha256 = "557ccd04509218a665bdb68d8ddbe54e6d4eed95373471578196bc1652adf2fd"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "5019f2342bcd0eed6d318d7b76cb5ee300630d11362f1e3be4e8c8d5392db861"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.i686-linux-gnu-cxx11.tar.gz"
 [[gperftools]]
-arch = "x86_64"
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "addcf45778f15d9a70fe47bf808361fb230aa395"
+libc = "musl"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "3203c3328618763f57fec8475f3a8021ed899b87f6648db571789049515fbf46"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.i686-linux-musl-cxx03.tar.gz"
+[[gperftools]]
+arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c6d54a7efa5374713d3011ff086a22ea400812ca"
+git-tree-sha1 = "b2b37cedfef9edf2a5fed95239224aa9ffc76710"
+libc = "musl"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "4387f539a1e26401d937feb976010f373b6ee56d259508777055ad7661d5cb36"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.i686-linux-musl-cxx11.tar.gz"
+[[gperftools]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "dcdbd4ffc19664f23fd50867f3d7133c6f99064f"
 libc = "glibc"
 os = "linux"
 
     [[gperftools.download]]
-    sha256 = "1d82b1a7d02c0ae383521433110640df2347db58dea2cdd8538e66f8309ae272"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "0a6d508f0339ccad10504dac233ce76e6e1ef4f469a545d6c29178d7bfb95a61"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[gperftools]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2f06dd89fff2444f090e98949cd3cf182aa4b748"
+git-tree-sha1 = "6f26ab8a7a2a08c3bba12386cc5501ff5ee46088"
 libc = "glibc"
 os = "linux"
 
     [[gperftools.download]]
-    sha256 = "fe298d46c21cb69a8d51f25ebd7003eda2989598417545983a36489cbabd2126"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[gperftools]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8ec9aa9f41a588173b3acd3dec82021dfdc65cbf"
-libc = "glibc"
-os = "linux"
-
-    [[gperftools.download]]
-    sha256 = "ec5b57e837aab2adec2a2a42a4045c9b3d47a273e27342e225ae9873aa058246"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "385859eb986ae5d42d20812cfe21e95681537cf56e99cdb2cee25e71c72655bb"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[gperftools]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "b37594ef55297f20b489915189efa1cf8daf6b45"
+git-tree-sha1 = "53044638e9c0cd58407ce4d23fc141bd1477a600"
 os = "macos"
 
     [[gperftools.download]]
-    sha256 = "094997dd82c70776395263faf3820f284b16c8061a950e06c38a2458c9b74c89"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.x86_64-apple-darwin14-cxx03.tar.gz"
+    sha256 = "ded17efc4c0e5f2da642e72feea857eb4fd7fbf363b2cf4234ba538db58ad3d1"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.x86_64-apple-darwin.tar.gz"
 [[gperftools]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "fd18a707daef5648a0fca1cd865fbceb6b559f2d"
-os = "freebsd"
-
-    [[gperftools.download]]
-    sha256 = "3be6b000edccceb4f01dbd6e6af5c7c052489de3547cb01f15b1b46de9e1ac85"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
-[[gperftools]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "9337868c725a8a79c7bb7e9c30178fc491fbbd6c"
+git-tree-sha1 = "8a46f85ff56bd7f8c9f454ca7959ce1938f7ad8e"
 libc = "glibc"
 os = "linux"
 
     [[gperftools.download]]
-    sha256 = "947bce4361955cecd61fcc7117402ad0ef2daab6948a19ba1b90357c2b371713"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[gperftools]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "11d187c01d3d2755bbeff57388c0d1a8224327d3"
-libc = "glibc"
-os = "linux"
-
-    [[gperftools.download]]
-    sha256 = "b5d071dd95772aa82dd0f82020bfdc150531a28335110ea3c72c57e43bbafc86"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[gperftools]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ef6321b2699990f838679f896906cac8e5f4216c"
-libc = "glibc"
-os = "linux"
-
-    [[gperftools.download]]
-    sha256 = "bafb8f5b36eb8dd9807565e77498c3d196e93a541226a8a5f4f8733a50f99d05"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.aarch64-linux-gnu-cxx03.tar.gz"
-[[gperftools]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8161c6909e67a1527243bec027d4eb1d7c808dfd"
-libc = "glibc"
-os = "linux"
-
-    [[gperftools.download]]
-    sha256 = "8924ed2e3dfd5c4252d73b41b6a97c88fb1b01105285b0e161000affcd450160"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "922c9a98c244baa0c0183587eb2c169324816691354c88805937f21125a2ed52"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[gperftools]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "09f0c8e953401c68e06f74f47343dbab2214d1bd"
+git-tree-sha1 = "ef5796597117b6e5ccaf0c7e8fe452252a8ab677"
+libc = "glibc"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "91372d70ca6dcc0a96dc347fd8f50770b37ea86246d053b524fa4a761de95d95"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[gperftools]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1b481839f02a9515749d4598228b920a08c90b60"
+libc = "musl"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "c337a304b1f3e8ff330d5880d05d224cd6867f7eee35e866a8003a2d01c9075f"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.x86_64-linux-musl-cxx03.tar.gz"
+[[gperftools]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6c0876fc2e27cfca0473d44c1af19b8a040b46e4"
+libc = "musl"
+os = "linux"
+
+    [[gperftools.download]]
+    sha256 = "d5c0137b4a83604f0cdb7d79fa7866cad8d5a68cbe0e659a6a6564f68d85432b"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.x86_64-linux-musl-cxx11.tar.gz"
+[[gperftools]]
+arch = "x86_64"
+git-tree-sha1 = "28ffe188b08563ecee8a38fa50811546a795b78c"
 os = "freebsd"
 
     [[gperftools.download]]
-    sha256 = "4a547b1db32516bf4e4659d65ed03f90f59c0e721a9ccde8b183ba0464314b7a"
-    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.7.0+0/gperftools.v2.7.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
+    sha256 = "8e979ad6fe21e43c69f72eec6932f7c1b02042f5070a22d3046199d21a84a81e"
+    url = "https://github.com/JuliaBinaryWrappers/gperftools_jll.jl/releases/download/gperftools-v2.9.1+0/gperftools.v2.9.1.x86_64-unknown-freebsd.tar.gz"
